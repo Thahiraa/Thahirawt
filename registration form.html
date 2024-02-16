@@ -1,0 +1,75 @@
+<html>
+<head>
+    <body>
+        <style>
+            h1{
+            text-align:center;
+        }
+        h2{
+            text-align:center;
+        }
+        form{
+            text-align: left;
+        }
+        </style>
+      <h1> SPORTS DAY REGISTRATION</h1>
+    <h2>Fill the form</h2>
+    <form>
+        <fieldset>
+            <legend>student details</legend>
+        <label for="myname"> Name: </label>
+        <br>
+        <input type="text" id="myname" name="myname">
+        <br>
+        <label for="name">Branch: </label>
+        <br> 
+        <select id="name" name="name">
+            <option value="cse">Cse</option>
+            <option value="csse">Csse</option>
+            <option value="it">Mech</option>
+            <option value="civil">Civil</option>
+        </select>
+        <br>
+        <label for="rollno">Roll number:</label>
+        <br>
+        <input type="text" id="rollno" name="rollno" required>
+        <br>
+        <label for="contact">Contact number:</label>
+        <br>
+        <input type="text" id="contact" name="contact" maxlength="10">
+        <br>
+        <label for="mail">Email address</label>
+        <br> 
+        <input type="email" id="mail" name="mail">
+        <br>
+        <label for="image">Student image:</label>
+        <br>
+        <input type="file" id="image" name="image">
+    </fieldset>
+    <br>
+         <fieldset>
+            <legend>events</legend>
+        <p>Select max 3 events:</p>
+        <label for="lj">Long jump</label>
+        <input type="checkbox" id="lj" name="lj">
+        <br>
+        <label for="hj">High jump</label>
+        <input type="checkbox" id="hj" name="hj">
+        <br>
+        <label for="run1">100 metres race</label>
+        <input type="checkbox" id="run1" name="run1">
+        <br>
+        <label for="run2">200 metres race</label>
+        <input type="checkbox" id="run2" name="run2">
+        <br>
+        <label for="run4">400 metres race</label>
+        <input type="checkbox" id="run4" name="run4">
+        <br>
+        <label for="relay">Relay</label>
+        <input type="checkbox" id="relay" name="relay">
+    </fieldset>
+<br>
+<input type="reset">
+<input type="submit">
+    </body>
+</html>
